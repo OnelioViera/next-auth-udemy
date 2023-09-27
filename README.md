@@ -26,4 +26,6 @@ Once setup, open up a terminal and `cd` to your project.  Enter the following co
 
 ### Install NextAuth.js
 
+[https://next-auth.js.org/](https://next-auth.js.org/ "NextAuth.js")
+
 - `npm install next-auth`

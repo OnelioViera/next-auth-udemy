@@ -19,3 +19,11 @@ Once setup, open up a terminal and `cd` to your project.  Enter the following co
 - `npx prisma generate`
 
 - `npx prisma migrate dev --name <give it a name>`
+
+- `npx prisma studio`
+
+- `npm install @prisma/client`
+
+### Install NextAuth.js
+
+- `npm install next-auth`

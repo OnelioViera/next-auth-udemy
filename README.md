@@ -28,4 +28,12 @@ Once setup, open up a terminal and `cd` to your project.  Enter the following co
 
 [https://next-auth.js.org/](https://next-auth.js.org/ "NextAuth.js")
 
+Once setup, open up a terminal and `cd` to your project.  Enter the following commands.
+
 - `npm install next-auth`
+
+### Install Bcrypt
+
+https://www.npmjs.com/package/bcrypt
+
+- `npm install bcrypt --save`

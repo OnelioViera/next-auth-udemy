@@ -19,7 +19,19 @@ const RegistrationForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-  // register api placeholder 
+    registerUser(email, password)
+      .then(res => {
+        if (res.status === 200) {
+          clearInputs()
+          router.push('/login')
+        }
+        else {
+          setError(res.message)
+        }
+      })
+      .catch(e => {
+        console.error(e)
+      })
   }
 
   return (
@@ -48,10 +60,10 @@ const RegistrationForm = () => {
       >
         Register
       </button>
-      {error && 
-      <p className='text-red-500 font-bold text-center'>
-        {error}
-      </p>
+      {error &&
+        <p className='text-red-500 font-bold text-center'>
+          {error}
+        </p>
       }
     </form>
   )

@@ -37,3 +37,9 @@ Once setup, open up a terminal and `cd` to your project.  Enter the following co
 https://www.npmjs.com/package/bcrypt
 
 - `npm install bcrypt --save`
+
+### Install JSON Web Token
+
+https://www.npmjs.com/package/jsonwebtoken
+
+- `npm install jsonwebtoken --save`
